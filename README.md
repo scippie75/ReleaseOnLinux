@@ -11,7 +11,7 @@ I created a share between the host and the guest. It gave permission problems, b
 
 We will be releasing libraries with our executable, so we will need to tell Linux about their location. To keep it simple, we will use the path the executable is in: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
 
-My test application uses SDL2, so copy the following files in the director: 
+My test application uses SDL2 (sdl2-image, sdl2-ttf) and GLEW, so copy the following files in the director: 
 - /usr/lib64/libSDL2-2.0.so.0
 - /usr/lib64/libSDL2_image-2.0.so.0
 - /usr/lib64/libSDL2_ttf-2.0.so.0
