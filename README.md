@@ -6,6 +6,7 @@ This guide is Work In Progress. Do not use! And even if it's finished... Do not 
 
 ## WIP
 This guide is Work In Progress. Although it worked on my computer, someone else is having problems with a missing version of GLIBC. I am still trying to find out how to solve this.
+Question posted on StackOverflow: https://stackoverflow.com/questions/62325666/how-to-properly-release-c-software-game-on-linux
 
 ## Getting started
 First thing I did was install Ubuntu Linux on a VM in VirtualBox (with 3D support) because most games released on Steam/GOG/... will work on it and we will at least have this too. I also installed the VirtualBox Guest Additions.
