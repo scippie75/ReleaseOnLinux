@@ -16,7 +16,7 @@ My test application uses SDL2 (sdl2-image, sdl2-ttf) and GLEW, so copy the follo
 - /usr/lib64/libSDL2_image-2.0.so.0
 - /usr/lib64/libSDL2_ttf-2.0.so.0
 - /usr/lib64/libGLEW.so.2.2
-- /usr/lib64/libwebp.so.7 (I don't know why I need this)
+- /usr/lib64/libwebp.so.7 (I don't know why I need this, I don't have any .webp images in my project, maybe SDL needs it)
 
 Try out the executable from the command line and it should work (it didn't work for me as my game requires GLSL 1.50 and VirtualBox doesn't support it).
 
